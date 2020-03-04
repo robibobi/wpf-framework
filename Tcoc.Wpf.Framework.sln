@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tcoc.Wpf.Framework", "Tcoc.Wpf.Framework\Tcoc.Wpf.Framework.csproj", "{BE6E03B8-99AE-4363-9E19-1812F83440EB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{56A48D5C-DC44-4864-BC46-E25C600B80D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tcoc.Wpf.Framework.UnitTests", "Test\Tcoc.Wpf.Framework.UnitTests\Tcoc.Wpf.Framework.UnitTests.csproj", "{4481090B-4362-44A4-BD52-ADAA40834C4F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BE6E03B8-99AE-4363-9E19-1812F83440EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE6E03B8-99AE-4363-9E19-1812F83440EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE6E03B8-99AE-4363-9E19-1812F83440EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE6E03B8-99AE-4363-9E19-1812F83440EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4481090B-4362-44A4-BD52-ADAA40834C4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4481090B-4362-44A4-BD52-ADAA40834C4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4481090B-4362-44A4-BD52-ADAA40834C4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4481090B-4362-44A4-BD52-ADAA40834C4F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4481090B-4362-44A4-BD52-ADAA40834C4F} = {56A48D5C-DC44-4864-BC46-E25C600B80D9}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {31E106BC-06C0-4DD0-9E3C-46FF3514D5C1}
+	EndGlobalSection
+EndGlobal
